@@ -262,31 +262,31 @@ class _DashboardState extends State<Dashboard> {
                       minTileHeight: 5,
                       tileColor: Colors.blue,
                       contentPadding: EdgeInsets.symmetric(vertical: 0.0, horizontal: 5.0),
-                      title: Text('Start Date         : Alpha one mall',style: TextStyle(fontSize: 12),),
+                      title: Text('Start Date         : 4 july 2024',style: TextStyle(fontSize: 12),),
                     ),
                     ListTile(
                       minTileHeight: 5,
                       tileColor: Colors.blue,
                       contentPadding: EdgeInsets.symmetric(vertical: 0.0, horizontal: 5.0),
-                      title: Text('Contact Person         : Alpha one mall',style: TextStyle(fontSize: 12),),
+                      title: Text('Contact Person         : Vijay Deshmukh',style: TextStyle(fontSize: 12),),
                     ),
                     ListTile(
                       minTileHeight: 5,
                       tileColor: Colors.blue,
                       contentPadding: EdgeInsets.symmetric(vertical: 0.0, horizontal: 5.0),
-                      title: Text('Mobile         : Alpha one mall',style: TextStyle(fontSize: 12),),
+                      title: Text('Mobile         : +91 989889898989',style: TextStyle(fontSize: 12),),
                     ),
                     ListTile(
                       minTileHeight: 5,
                       tileColor: Colors.blue,
                       contentPadding: EdgeInsets.symmetric(vertical: 0.0, horizontal: 5.0),
-                      title: Text('Team name         : Alpha one mall',style: TextStyle(fontSize: 12),),
+                      title: Text('Team name         : Team Alpha',style: TextStyle(fontSize: 12),),
                     ),
                     ListTile(
                       minTileHeight: 5,
                       tileColor: Colors.blue,
                       contentPadding: EdgeInsets.symmetric(vertical: 0.0, horizontal: 5.0),
-                      title: Text('Resources         : Alpha one mall',style: TextStyle(fontSize: 12),),
+                      title: Text('Resources         : 8',style: TextStyle(fontSize: 12),),
                     ),
                   ],
                 ),
@@ -294,10 +294,195 @@ class _DashboardState extends State<Dashboard> {
             ),
 
             SizedBox(height: 20),
+            ///////////////////////////////////////////////////////////////////////////////
             Container(
               height: 453,
               width: 327,
-              color: Colors.purple,
+              color: Color(0xffEAEAEA),
+              child: Column(
+                children: [
+                  Padding(
+                    padding: const EdgeInsets.all(10.0),
+                    child: Row(
+                      crossAxisAlignment: CrossAxisAlignment.start,
+                      mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                      children: [
+                        Text('Employees',style: TextStyle(fontSize: 15),),
+                        Icon(Icons.directions),
+
+                      ],
+                    ),
+                  ),
+                  Container(
+                    height: 75,
+                    width: 320,
+                    decoration: BoxDecoration(
+                      borderRadius: BorderRadius.circular(15),
+                      color: Color(0xffEAEAEA),
+                    ),
+
+                    child: Column(
+                      crossAxisAlignment: CrossAxisAlignment.start,
+                      children: [
+                        Text('Abch2t7826'),
+                        Container(
+                          height: 1,
+                          width: 600,
+                          color: Colors.white,
+                        ),
+                       Row(
+                         children: [
+                           Container(
+                             margin: EdgeInsets.only(left: 25),
+                             height: 50,
+                             width: 50,
+                             child: Image.network("https://cdn-icons-png.flaticon.com/512/3135/3135715.png",fit: BoxFit.fill,),
+                           ),
+                           Text('Vikramjit singh'),
+                         ],
+                       ),
+
+                      ],
+                    ),
+
+                  ),
+                  SizedBox(height: 5),
+                  Container(
+                    height: 75,
+                    width: 320,
+                    decoration: BoxDecoration(
+                      borderRadius: BorderRadius.circular(15),
+                      color: Color(0xffEAEAEA),
+                    ),
+                    child: Column(
+                      crossAxisAlignment: CrossAxisAlignment.start,
+                      children: [
+                        Text('Abch2t7826'),
+                        Container(
+                          height: 1,
+                          width: 600,
+                          color: Colors.white,
+                        ),
+                        Row(
+                          children: [
+                            Container(
+                              margin: EdgeInsets.only(left: 25),
+                              height: 50,
+                              width: 50,
+                              child: Image.network("https://cdn-icons-png.flaticon.com/512/3135/3135715.png",fit: BoxFit.fill,),
+                            ),
+                            Text('Vikramjit singh'),
+                          ],
+                        ),
+
+                      ],
+                    ),
+
+                  ),
+                  //
+                  SizedBox(height: 5),
+                  Container(
+                    height: 75,
+                    width: 320,
+                    decoration: BoxDecoration(
+                      borderRadius: BorderRadius.circular(15),
+                      color: Color(0xffEAEAEA),
+                    ),
+                    child: Column(
+                      crossAxisAlignment: CrossAxisAlignment.start,
+                      children: [
+                        Text('Abch2t7826'),
+                        Container(
+                          height: 1,
+                          width: 600,
+                          color: Colors.white,
+                        ),
+                        Row(
+                          children: [
+                            Container(
+                              margin: EdgeInsets.only(left: 25),
+                              height: 50,
+                              width: 50,
+                              child: Image.network("https://cdn-icons-png.flaticon.com/512/3135/3135715.png",fit: BoxFit.fill,),
+                            ),
+                            Text('Vikramjit singh'),
+                          ],
+                        ),
+
+                      ],
+                    ),
+
+                  ),
+                  ////
+                  SizedBox(height: 5),
+                  Container(
+                    height: 75,
+                    width: 320,
+                    decoration: BoxDecoration(
+                      borderRadius: BorderRadius.circular(15),
+                      color: Color(0xffEAEAEA),
+                    ),
+                    child: Column(
+                      crossAxisAlignment: CrossAxisAlignment.start,
+                      children: [
+                        Text('Abch2t7826'),
+                        Container(
+                          height: 1,
+                          width: 600,
+                          color: Colors.white,
+                        ),
+                        Row(
+                          children: [
+                            Container(
+                              margin: EdgeInsets.only(left: 25),
+                              height: 50,
+                              width: 50,
+                              child: Image.network("https://cdn-icons-png.flaticon.com/512/3135/3135715.png",fit: BoxFit.fill,),
+                            ),
+                            Text('Vikramjit singh'),
+                          ],
+                        ),
+
+                      ],
+                    ),
+
+                  ),
+                  ///////////
+                  SizedBox(height: 5),
+                  Container(
+                    height: 75,
+                    width: 320,
+                    decoration: BoxDecoration(
+                      borderRadius: BorderRadius.circular(15),
+                      color: Color(0xffEAEAEA),
+                    ),
+                    child: Column(
+                      crossAxisAlignment: CrossAxisAlignment.start,
+                      children: [
+                        Text('Abch2t7826'),
+                        Container(
+                          height: 1,
+                          width: 600,
+                          color: Colors.white,
+                        ),
+                        Row(
+                          children: [
+                            Container(
+                              margin: EdgeInsets.only(left: 25),
+                              height: 50,
+                              width: 50,
+                              child: Image.network("https://cdn-icons-png.flaticon.com/512/3135/3135715.png",fit: BoxFit.fill,),
+                            ),
+                            Text('Vikramjit singh'),
+                          ],
+                        ),
+
+                      ],
+                    ),
+
+                  ),
+                ],
+              ),
             ),
           ],
         ),
